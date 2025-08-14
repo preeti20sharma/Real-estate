@@ -22275,4 +22275,25 @@ h6.mt-2 a {
 .image-content p {
   font-size: 1.2rem;
 }
+@media (max-width:576px)  {
+  
+  .image-content p {
+  display: none;
+}
+}
+
+@media (max-width:576px) {
+   .main-imgg{
+    height:200px;
+    width:400px;
+
+}
+}
+@media (min-width:768px) {
+   .main-imgg{
+    height:600px;
+
+}
+}
+
 
