@@ -21509,8 +21509,8 @@ only screen and (min-width: 768px) and (max-width: 991px),
   width: 54px;
   transition: all 0.8s;
   display: inline-block;
-  background: var(--ztc-bg-bg-3);
-  border-radius: 50%;
+  /* background: var(--ztc-bg-bg-3); */
+  /* border-radius: 50%; */
   color: var(--ztc-text-text-1);
   line-height: 48px;
   font-size: var(--ztc-font-size-font-s20);
