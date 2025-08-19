@@ -22453,7 +22453,7 @@ body {
 /* Mobile (≤768px): turn tabs into accordion */
 @media (max-width: 768px) {
   .tabs {
-    display: inline-block;
+    display: none;
   }
 }
 
@@ -22596,3 +22596,46 @@ body {
   opacity: 2;
   transform: translateY(0);  /* smooth fade-in & slide-up */
 }
+
+
+
+
+
+/* ---------- Mobile view ---------- */
+@media (max-width: 768px) {
+  .container-class {
+    flex-direction:row;
+    align-items: flex-start;
+    gap: 2px;
+    padding-top: 40px;
+  }
+
+
+  .container-class > div {
+    width: 100%;
+    /* border-bottom: 1px solid #ddd;  */
+    padding-bottom: 2px;
+  }
+  .vl {
+    border-left: 2px solid white;
+  height: 90px;
+  margin-right: 5px;
+  margin-left: 5px;
+ 
+  }
+
+
+.line-content {
+  color: orange !important;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+
+.line-para {
+  font-size: 12px;
+
+}
+
+}
+
