@@ -22453,7 +22453,7 @@ body {
 /* Mobile (≤768px): turn tabs into accordion */
 @media (max-width: 768px) {
   .tabs {
-    display: none;
+    display: inline-block;
   }
 }
 
