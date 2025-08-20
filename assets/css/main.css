@@ -4085,7 +4085,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .blog-inner-section .bg-area {
-  background: var(--ztc-bg-bg-1);
+  /* background: var(--ztc-bg-bg-1); */
   padding: 32px;
   border-radius: 16px;
 }
@@ -22927,4 +22927,17 @@ padding-bottom: 30px;
     width: 40px;
     height: 1px;
     background-color: #bbbbbb;
+}
+.blog-para{
+  /* position: relative; */
+    color: #5C5D62;
+    /* margin-bottom: 10px; */
+    font-family: 'inter', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* text-transform: capitalize; */
+    padding-top: 5px;
+    display: block;
 }
