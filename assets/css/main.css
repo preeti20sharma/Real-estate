@@ -22331,12 +22331,12 @@ h6.mt-2 a {
 
 .line-content {
   color: orange !important;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .line-para {
-  font-size: 20px;
+  font-size: 10px;
 
 }
 
@@ -22633,12 +22633,12 @@ padding-bottom: 30px;
 .line-content {
   color: orange !important;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 
 .line-para {
-  font-size: 12px;
+  font-size: 8px;
 
 }
 
@@ -22732,4 +22732,199 @@ padding-bottom: 30px;
   font-weight: 400;
   color: #5C5D62;
   line-height: 26px;
+}
+
+
+.search-section {
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  padding: 40px 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.search-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0  70px;
+}
+
+.data-box{
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 25px  40px;
+  border-radius: 5px;
+  border: 0.8px solid white;
+  text-align: center;
+}
+
+
+.about-section{
+	position:relative;
+	padding:0  40px;
+  /* background-color: white; */
+}
+
+.about-section .content-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.about-section .content-column .inner-column{
+	position:relative;
+	/* padding-top:50px; */
+	/* padding-right:100px; */
+}
+
+.about-section .content-column .text{
+	position:relative;
+	color:#5C5D62;
+	margin-bottom:20px;
+  font-family: 'inter', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding-top: 16px;
+    display: block;
+}
+
+.about-section .content-column .email{
+	position:relative;
+	color:#252525;
+	font-weight:700;
+	margin-bottom:50px;
+}
+
+.about-section .image-column{
+	position:relative;
+	margin-bottom:50px;
+}
+
+.about-section .image-column .inner-column{
+	position:relative;
+	padding:40px 40px 0px 0px;
+	margin-left:50px;
+}
+
+.about-section .image-column .inner-column:after{
+	position:absolute;
+	content:'';
+	right:0px;
+	top:0px;
+	left:40px;
+	bottom:100px;
+	z-index:-1;
+	border:2px solid #d7a449;
+}
+
+.about-section .image-column .inner-column .image{
+	position:relative;
+}
+
+.about-section .image-column .inner-column .image:before{
+	position:absolute;
+	content:'';
+	left:-50px;
+	bottom:-50px;
+	width:299px;
+	height:299px;
+	background:url(img/pattern-2.png) no-repeat;
+}
+
+.about-section .image-column .inner-column .image img{
+	position:relative;
+	width:100%;
+	display:block;
+}
+
+.about-section .image-column .inner-column .image .overlay-box{
+	position:absolute;
+	left:40px;
+	bottom:48px;
+}
+
+.about-section .image-column .inner-column .image .overlay-box .year-box{
+	position:relative;
+	color:#252525;
+	font-size:24px;
+	font-weight:700;
+	line-height:1.4em;
+	padding-left:125px;
+}
+
+.about-section .image-column .inner-column .image .overlay-box .year-box .number{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:110px;
+	height:110px;
+	color:#d7a449;
+	font-size:68px;
+	font-weight:700;
+	line-height:105px;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #000000;
+}
+.about-section .btn-style-three:before {
+    position: absolute;
+    content: '';
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+    right: -10px;
+    bottom: -10px;
+    /* background: url(https://i.ibb.co/DKn55Qz/pattern-1.jpg) repeat; */
+}
+.about-section .btn-style-three:hover {
+    color: #ffffff;
+    background: #d4691c;
+}
+.about-section .btn-style-three {
+    position: relative;
+    line-height: 24px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    display: inline-block;
+    padding: 11px 40px;
+    background-color: #ED8438;
+    text-transform: capitalize;
+    border: 2px solid #ED8438;
+    font-family: 'inter', serif;
+    border-radius: 30px;
+}
+.sec-title2{
+	color:#fff;
+}
+.sec-title {
+    position: relative;
+}
+.sec-title .title {
+    position: relative;
+    color: #d7a449;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.sec-title .title:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 7px;
+    width: 40px;
+    height: 1px;
+    background-color: #bbbbbb;
 }
