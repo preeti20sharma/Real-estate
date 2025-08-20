@@ -22949,3 +22949,9 @@ padding-bottom: 30px;
     font-weight: 400;
     padding: 8px;
 }
+@media (min-width:1376px){
+  .tabs{
+    display:flex;
+    font-size: 30px;
+  }
+}
